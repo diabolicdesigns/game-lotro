@@ -69,13 +69,14 @@ if(!class_exists('lotro')) {
 				'parent'	=> array(
 					'race' => array(
 						0 	=> 'all',		// Unknown
-						1 	=> array(1,2,3,4,5,6,7,9),		// Man
+						1 	=> array(1,2,3,4,5,6,7,9,11),		// Man
 						2 	=> array(5,6,3,1,9),		// Hobbit
-						3 	=> array(1,3,4,6,7,8,9),		// Elf
-						4 	=> array(5,7,6,3,1,8),		// Dwarf
+						3 	=> array(1,3,4,6,7,8,9,11),		// Elf
+						4 	=> array(5,7,6,3,1,8,11),		// Dwarf
 						5 	=> array(10),		// Beorning
-						6	=> array(1,2,3,4,6,7,8,9), // High-Elf
-						7	=> array(5,7,6,3,1,8), // Stout-Axe
+						6	=> array(1,2,3,4,6,7,8,9,11), // High-Elf
+						7	=> array(5,7,6,3,1,8,11), // Stout-Axe
+						8	=> array(1,2,3,4,5,6,7,8,9,11), //River Hobbit
 					),
 				),
 			),
@@ -83,10 +84,10 @@ if(!class_exists('lotro')) {
 		
 		public $default_roles = array(
 			1	=> array(1,8),			// Healer
-			2	=> array(6,7,9,10),		// Tank
+			2	=> array(6,7,9,10,11),		// Tank
 			3	=> array(4,5),			// CC
-			4	=> array(3,7,8,9,10),	// Damage Dealer
-			5	=> array(2,10)			// Supporter
+			4	=> array(3,7,8,9,10,11),	// Damage Dealer
+			5	=> array(2,10,11)			// Supporter
 		);
 		
 		protected $class_colors = array(
@@ -100,6 +101,7 @@ if(!class_exists('lotro')) {
 			8	=> '#1A3CAA',
 			9	=> '#FFF468',
 			10	=> '#4d1900',
+			11	=> '#4d1920',
 		);
 
 		protected $glang		= array();
@@ -114,7 +116,7 @@ if(!class_exists('lotro')) {
 					'type'			=> 'spinner',
 					'category'		=> 'character',
 					'lang'			=> 'uc_level',
-					'max'			=> 100,
+					'max'			=> 160,
 					'min'			=> 1,
 					'undeletable'	=> true,
 					'sort'			=> 4

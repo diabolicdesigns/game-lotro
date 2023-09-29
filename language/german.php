@@ -32,9 +32,10 @@ $german_array = array(
 		5	=> 'Schurke',
 		6	=> 'Wächter',
 		7	=> 'Waffenmeister',
-		8	=> 'Runenbewahrer',
+		8	=> 'Runenbewahrer'',
 		9	=> 'Hüter',
 		10	=> 'Beorninger',
+		11	=> 'Schläger', //Brawler
 	),
 	'races' => array(
 		0	=> 'Unknown',
@@ -45,6 +46,7 @@ $german_array = array(
 		5	=> 'Beorninger',
 		6	=> 'Hochelb',
 		7	=> 'Stark-Axt',
+		8	=> 'Der Hobbit am Fluss', //River hobbit
 	),
 	'factions' => array(
 		'free'			=> 'Freie Völker',
@@ -183,6 +185,7 @@ $german_array = array(
 		'uc_armory_impduplex'			=> 'Charakter ist bereits vorhanden',
 		'uc_race'						=> 'Rasse',
 		'uc_class'						=> 'Klasse',
+		'us_level'						=> 'Niveau',
 		
 		'no_data'						=> 'Zu diesem Char konnten keine Informationen abgerufen werden. Bitte überprüfe ob der richtige Server in den Einstellungen eingestellt ist.',
 		

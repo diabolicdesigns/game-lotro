@@ -35,6 +35,7 @@ $english_array = array(
 		8	=> 'Runekeeper',
 		9	=> 'Warden',
 		10	=> 'Beorning',
+		11	=> 'Brawler',
 	),
 	'races' => array(
 		0	=> 'Unknown',
@@ -45,6 +46,7 @@ $english_array = array(
 		5	=> 'Beorning',
 		6	=> 'High Elf',
 		7	=> 'Stout-Axe',
+		8	=> 'River Hobbit',
 	),
 	'factions' => array(
 		'free'			=>'Free People',
@@ -194,6 +196,7 @@ $english_array = array(
 		'uc_mastery'					=>	'Mastery',
 		'uc_race'						=> 'Race',
 		'uc_class'						=> 'Class',
+		'uc_level'						=> 'Level',
 		
 		//Events
 		'event1' => 'Annùminas: Glinghant',

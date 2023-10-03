@@ -26,7 +26,7 @@ if ( !defined('EQDKP_INC') ){
 if(!class_exists('lotro')) {
 	class lotro extends game_generic {
 		protected static $apiLevel	= 20;
-		public $version	= '3.1.4';
+		public $version	= '3.1.6';
 		protected $this_game	= 'lotro';
 		protected $types		= array('classes', 'races', 'factions', 'filters', 'roles', 'realmlist');
 		protected $classes		= array();
@@ -69,14 +69,14 @@ if(!class_exists('lotro')) {
 				'parent'	=> array(
 					'race' => array(
 						0 	=> 'all',		// Unknown
-						1 	=> array(1,2,3,4,5,6,7,9,11),		// Man
+						1 	=> array(1,2,3,4,5,6,7,9,11,12),		// Man
 						2 	=> array(5,6,3,1,9),		// Hobbit
 						3 	=> array(1,3,4,6,7,8,9,11),		// Elf
 						4 	=> array(5,7,6,3,1,8,11),		// Dwarf
 						5 	=> array(10),		// Beorning
-						6	=> array(1,2,3,4,6,7,8,9,11), // High-Elf
-						7	=> array(5,7,6,3,1,8,11), // Stout-Axe
-						8	=> array(1,2,3,4,5,6,7,8,9,11), //River Hobbit
+						6	=> array(1,2,3,4,6,7,8,9,11,12), // High-Elf
+						7	=> array(5,7,6,3,1,8,11,12), // Stout-Axe
+						8	=> array(1,2,3,4,5,6,7,8,9,11,12), //River Hobbit
 					),
 				),
 			),
@@ -86,8 +86,8 @@ if(!class_exists('lotro')) {
 			1	=> array(1,8),			// Healer
 			2	=> array(6,7,9,10,11),		// Tank
 			3	=> array(4,5),			// CC
-			4	=> array(3,7,8,9,10,11),	// Damage Dealer
-			5	=> array(2,10,11)			// Supporter
+			4	=> array(3,7,8,9,10,11,12),	// Damage Dealer
+			5	=> array(2,10,11,12)			// Supporter
 		);
 		
 		protected $class_colors = array(
@@ -102,6 +102,7 @@ if(!class_exists('lotro')) {
 			9	=> '#FFF468',
 			10	=> '#4d1900',
 			11	=> '#4d1920',
+			12	=> '#42f5e0',
 		);
 
 		protected $glang		= array();

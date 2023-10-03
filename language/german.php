@@ -36,6 +36,7 @@ $german_array = array(
 		9	=> 'Hüter',
 		10	=> 'Beorninger',
 		11	=> 'Schläger', //Brawler
+		12	=> 'Seemann', //Mariner
 	),
 	'races' => array(
 		0	=> 'Unknown',

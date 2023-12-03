@@ -86,7 +86,7 @@ if(!class_exists('lotro')) {
 			1	=> array(1,2,8,10),			// Healer
 			2	=> array(2,6,9,10,11),		// Tank
 			3	=> array(4,5),			// CC
-			4	=> array(1,3,7,8,9,10,11),	// Damage Dealer
+			4	=> array(1,3,6,7,8,9,10,11,12),	// Damage Dealer
 			5	=> array(2,4,5,12)			// Supporter
 		);
 		
